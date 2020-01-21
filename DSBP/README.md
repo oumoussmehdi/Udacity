@@ -2,6 +2,7 @@
 
 ## Presentation 
 this is the repository for the code of the blog post about churn detection
+link to the blog : https://medium.com/@oumousselmehdi/detect-churn-using-crisp-dm-60d6553dd531
 
 ## Folders & documents
 * data : contains the csv file necessary for the analysis
