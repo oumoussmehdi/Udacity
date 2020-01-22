@@ -70,7 +70,7 @@ def classify_images(images_dir, results_dic, model):
         labels = results_dic[img_name]
         true_label = labels[0]
         clf_label = classifier(images_dir + img_name, model)
-        clf_label = clf_label.lower()
+        clf_label = clf_label.lower().strip()
         labels.extend([clf_label])
         labels.extend([int(true_label in clf_label)])
         results_dic[img_name] = labels

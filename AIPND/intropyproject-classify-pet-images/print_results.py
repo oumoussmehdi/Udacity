@@ -77,7 +77,7 @@ def print_results(results_dic, results_stats_dic, model,
 
         for k, v in results_dic.items():
             if sum(v[3:]) == 1:
-                print(k)
+                print('real: ', v[0], ' - classification: ', v[1])
 
     print('')
     any_breeds_misclassified = results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_breed']
@@ -85,7 +85,7 @@ def print_results(results_dic, results_stats_dic, model,
         print('** incorrect breed ')
         for k, v in results_dic.items():
             if sum(v[3:]) == 2 & v[2] == 0:
-                print(k)
+                print('real: ', v[0], ' - classification: ', v[1])
 
     None
 

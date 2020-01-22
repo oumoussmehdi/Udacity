@@ -68,7 +68,13 @@ def adjust_results4_isadog(results_dic, dogfile):
            None - results_dic is mutable data type so no return needed.
     """
 
-    dogs = [line.rstrip('\n') for line in open(dogfile)]
+    # dogs = [line.rstrip('\n') for line in open(dogfile)]
+
+    dogs = {}
+    with open(dogfile) as f:
+        for dog in f:
+            dog = dog.strip()
+            dogs[dog] = 1
 
     for k in results_dic.keys():
         l = results_dic[k]

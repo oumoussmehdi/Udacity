@@ -47,6 +47,9 @@ def get_pet_labels(image_dir):
     lst = listdir(image_dir)
 
     for l in lst:
+        if l[0] == '.':
+            continue
+
         label = l.split('.')[0].split('_')
         label = [x for x in label if not x.isnumeric()]
         label = ' '.join(label).strip()
