@@ -82,9 +82,9 @@ def calculates_results_stats(results_dic):
         n_match += idx2
         n_dogs_img += idx3
         # n_notdogs_img = int(idx3 == 0) #
-        n_correct_dogs += int(idx3 == 1 & idx4 == 1)
-        n_correct_breed += int(idx2 == 1 & idx3 == 1)
-        n_correct_notdogs += int(idx3 == 0 & idx4 == 0)
+        n_correct_dogs += int((idx3 == 1) and (idx4 == 1))
+        n_correct_breed += int((idx2 == 1) and (idx3 == 1))
+        n_correct_notdogs += int((idx3 == 0) and (idx4 == 0))
 
     n_notdogs_img = n_images - n_dogs_img
 

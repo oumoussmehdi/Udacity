@@ -362,23 +362,9 @@ pct_correct_dogs :  100.0
 pct_correct_breed :  93.33333333333333
 pct_correct_notdogs :  100.0
 
-** incorrect dogs 
-great_horned_owl_02.jpg
-gecko_80.jpg
-Great_pyrenees_05367.jpg
-cat_01.jpg
-Beagle_01170.jpg
 
 ** incorrect breed 
-cat_07.jpg
-great_horned_owl_02.jpg
-cat_02.jpg
-gecko_80.jpg
-Rabbit_002.jpg
-polar_bear_04.jpg
-cat_01.jpg
-gecko_02.jpg
-skunk_029.jpg
-fox_squirrel_01.jpg
+real:  great pyrenees  - classification:  kuvasz
+real:  beagle  - classification:  walker hound, walker foxhound
 
 ** Total Elapsed Runtime: 0:0:33

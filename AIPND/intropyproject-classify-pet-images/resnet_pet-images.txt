@@ -350,7 +350,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  90.0
+Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
@@ -360,18 +360,14 @@ Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 pct_match :  82.5
 pct_correct_dogs :  100.0
 pct_correct_breed :  90.0
-pct_correct_notdogs :  100.0
+pct_correct_notdogs :  90.0
 
+** incorrect dogs 
+real:  cat  - classification:  norwegian elkhound, elkhound
 
 ** incorrect breed 
-real:  cat  - classification:  egyptian cat, cat
-real:  great horned owl  - classification:  great grey owl, great gray owl, strix nebulosa
-real:  cat  - classification:  tabby, tabby cat, cat
-real:  gecko  - classification:  tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
-real:  rabbit  - classification:  wood rabbit, cottontail, cottontail rabbit, rabbit
-real:  polar bear  - classification:  ice bear, polar bear, ursus maritimus, thalarctos maritimus
-real:  gecko  - classification:  african chameleon, chamaeleo chamaeleon
-real:  skunk  - classification:  skunk, polecat, wood pussy
-real:  fox squirrel  - classification:  fox squirrel, eastern fox squirrel, sciurus niger
+real:  great pyrenees  - classification:  kuvasz
+real:  beagle  - classification:  walker hound, walker foxhound
+real:  golden retriever  - classification:  leonberg
 
 ** Total Elapsed Runtime: 0:0:5

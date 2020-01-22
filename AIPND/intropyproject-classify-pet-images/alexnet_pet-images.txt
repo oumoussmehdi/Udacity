@@ -364,15 +364,11 @@ pct_correct_notdogs :  100.0
 
 
 ** incorrect breed 
-real:  cat  - classification:  egyptian cat, cat
-real:  great horned owl  - classification:  ruffed grouse, partridge, bonasa umbellus
-real:  cat  - classification:  tiger cat, cat
-real:  gecko  - classification:  tree frog, tree-frog
-real:  rabbit  - classification:  wood rabbit, cottontail, cottontail rabbit, rabbit
-real:  polar bear  - classification:  ice bear, polar bear, ursus maritimus, thalarctos maritimus
-real:  cat  - classification:  african hunting dog, hyena dog, cape hunting dog, lycaon pictus
-real:  gecko  - classification:  alligator lizard
-real:  skunk  - classification:  skunk, polecat, wood pussy
-real:  fox squirrel  - classification:  fox squirrel, eastern fox squirrel, sciurus niger
+real:  boston terrier  - classification:  basenji
+real:  golden retriever  - classification:  afghan hound, afghan
+real:  beagle  - classification:  english foxhound
+real:  great pyrenees  - classification:  kuvasz
+real:  beagle  - classification:  walker hound, walker foxhound
+real:  golden retriever  - classification:  tibetan mastiff
 
 ** Total Elapsed Runtime: 0:0:3

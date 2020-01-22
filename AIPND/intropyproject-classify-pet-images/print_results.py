@@ -84,7 +84,7 @@ def print_results(results_dic, results_stats_dic, model,
     if print_incorrect_breed and any_breeds_misclassified:
         print('** incorrect breed ')
         for k, v in results_dic.items():
-            if sum(v[3:]) == 2 & v[2] == 0:
+            if (sum(v[3:]) == 2) and (v[2] == 0):
                 print('real: ', v[0], ' - classification: ', v[1])
 
     None
