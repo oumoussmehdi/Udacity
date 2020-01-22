@@ -362,25 +362,16 @@ pct_correct_dogs :  100.0
 pct_correct_breed :  90.0
 pct_correct_notdogs :  100.0
 
-** incorrect dogs 
-great_horned_owl_02.jpg
-gecko_80.jpg
-Great_pyrenees_05367.jpg
-cat_01.jpg
-gecko_02.jpg
-Beagle_01170.jpg
-Golden_retriever_05182.jpg
 
 ** incorrect breed 
-cat_07.jpg
-great_horned_owl_02.jpg
-cat_02.jpg
-gecko_80.jpg
-Rabbit_002.jpg
-polar_bear_04.jpg
-cat_01.jpg
-gecko_02.jpg
-skunk_029.jpg
-fox_squirrel_01.jpg
+real:  cat  - classification:  egyptian cat, cat
+real:  great horned owl  - classification:  great grey owl, great gray owl, strix nebulosa
+real:  cat  - classification:  tabby, tabby cat, cat
+real:  gecko  - classification:  tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
+real:  rabbit  - classification:  wood rabbit, cottontail, cottontail rabbit, rabbit
+real:  polar bear  - classification:  ice bear, polar bear, ursus maritimus, thalarctos maritimus
+real:  gecko  - classification:  african chameleon, chamaeleo chamaeleon
+real:  skunk  - classification:  skunk, polecat, wood pussy
+real:  fox squirrel  - classification:  fox squirrel, eastern fox squirrel, sciurus niger
 
 ** Total Elapsed Runtime: 0:0:5
